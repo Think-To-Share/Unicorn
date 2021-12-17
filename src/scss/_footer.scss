@@ -1,0 +1,97 @@
+// Footer-section
+.footer-sec{
+  background-color: $primary-color;
+  .footer-text{
+    .footer-heading{
+      margin-top: 33px;
+      color: #ffffff;
+      font-family: $secondary-font;
+      font-weight: 400;
+      font-size: 2em;
+    }
+    .footer-first-text-bottom{
+      color: #ffffff;
+      font-family: $primary-font;
+      font-weight: 400;
+      font-size: 1.5em;
+      padding-top: 13px;
+    }
+    .social-media{
+      margin: 0;
+      padding: 0;
+      li{
+        list-style-type: none;
+        padding-left: 16px;
+        &:first-child{
+          padding-left: 0;
+        }
+
+        a{
+          text-decoration: none;
+          font-size: 1.5em;
+          font-family: $primary-font;
+          i{
+            color: #ffffff;
+            margin-bottom: 38px;
+          }
+        }
+      }
+    }
+    ul{
+      margin: 0;
+      padding: 0;
+      li{
+        list-style-type: none;
+        a{
+          text-decoration: none;
+          color: #ffffff;
+          font-family: $primary-font;
+          font-size: 1.5em;
+          padding-top: 13px;
+          font-weight: 400;
+        }
+      }
+    }
+    .footer-text-bottom{
+      color: #ffffff;
+      font-family: $primary-font;
+      font-size: 1.5em;
+      font-weight: 400;
+      a{
+        text-decoration: none;
+        color: #ffffff;
+        font-family: $primary-font;
+        font-size: 1em;
+        padding-top: 13px;
+        font-weight: 400;
+        &:hover{
+          opacity: 58%;
+        }
+      }
+    }
+  }
+}
+
+/* copyright css */
+.copy-right {
+    background-color:#fcc300;
+    .copyright-text {
+        color: #030303;
+        text-align: center;
+        font-size: 1.3em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: $primary-font;
+        font-weight: 400;
+        margin: 0;
+        a{
+            color: #030303;
+            font-weight: 700;
+            text-decoration: none;
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+    }
+}
+//end Footer-section
