@@ -1,5 +1,61 @@
+// services section
+.services-sec{
+    .services{
+        img{
+            margin: 0 auto;
+            width: 40%;
+            display: block;
+        }
+        .services-menu-heading{
+            font-weight: 400;
+            font-family: $secondary-font;
+            text-align: center;
+            font-size: 2em;
+            color: $primary-color;
+            padding-top: 20px;
+        }
+    }
+}
+
+// Start Process section
+.Process-section{
+    margin-bottom: 70px;
+    .Process-heading-text{
+        font-weight: 400;
+        font-family: $secondary-font;
+        font-size: 3.6em;
+        color: $primary-color;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .Process-text{
+        text-align: center;
+        color: #261d1b;
+        font-weight: 400;
+        font-family: $primary-font;
+        font-size: 1.5em;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .Process-button{
+        text-align: right;
+        margin-top: 30px;
+        a{
+            text-decoration: none;
+            font-weight: 500;
+            font-family: $primary-font;
+            color: #010101;
+            background-image: url(../images/process.jpg);
+            background-size: 100% 100%;
+            padding: 13px 58px;
+            font-size: 1.2em;
+            letter-spacing: 2px;
+        }
+    }
+}
+//our activites section  
 .activites-sec{
-    margin-bottom: 30px;
+    margin-bottom: 128px;
     .activites-heading{
         text-align: center;
         color: #fa194f; 
@@ -24,7 +80,7 @@
                 font-weight: 400;
                 font-family: $secondary-font;
                 color: #000;
-                font-size: 1em;
+                font-size: 2em;
         }
         .activites-text{
             text-align: center;
@@ -39,3 +95,103 @@
     }
 }
 
+// UNICORN SCHOOL for parents section
+.scl-parents-sec{
+    margin-bottom: 80px;
+    .scl-parents-heading{
+        font-weight: 400;
+        font-family: $secondary-font;
+        color: $primary-color;
+        font-size: 3em;
+        text-align: center;
+    }
+    .scl-parents-heading-text{
+        color: #4f4e4e;
+        font-weight: 400;
+        font-family: $primary-font;
+        font-size: 1.8em;
+        text-align: center;
+        margin-bottom: 87px;
+    }
+    .parents-sec{
+        background-image: url(../images/testimonialsimg.jpg);
+        background-repeat: no-repeat;
+        height: 842px;
+        background-size: 57%;
+        .parents-text{
+            color: #000000;
+            line-height: 30px;
+            background-image: url(../images/testimonials.jpg);
+            line-height: 59px;
+            padding: 100px 81px;
+            background-size: 100% 100%;
+            text-align: center;
+            font-size: 1.6em;
+            letter-spacing: 4px;
+            p{
+                font-weight: 400;
+                font-family: $secondary-font;
+                padding: 0;
+                margin: 0;
+            }
+
+        }
+        .parents-button{
+            text-align: right;
+            margin-top: 50px;
+            a{
+                text-decoration: none;
+                font-weight: 500;
+                font-family: $primary-font;
+                color: #110d00;
+                background-image: url(../images/process.jpg);
+                background-size: 100% 100%;
+                padding: 13px 58px;
+                font-size: 1.2em;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}
+
+// News and events section  
+
+.events-sec{
+    margin-bottom: 55px;
+    .events-heading{
+        text-align: center;
+        color: #fa194f; 
+        font-weight: 400;
+        font-family: $secondary-font;
+        font-size: 3.8em;
+        padding-bottom: 40px;
+    }
+    .events{
+        .events-menu-heading{
+            text-align: center;
+            padding-top: 10px;
+            font-weight: 400;
+            font-family: $secondary-font;
+            color: $primary-color;
+            font-size: 2.2em;
+        }
+        .events-menu-text{
+            background-image: url(../images/events.jpg);
+            background-size: 100% 100%;
+            padding: 27px 28px;
+            background-position: top left;
+            text-align: center;
+            font-weight: 500;
+            font-family: $primary-font;
+            color: #000;
+            font-size: 1em;
+            line-height: 33px;
+            margin-bottom: 0;
+            p{
+                padding: 0;
+                margin: 0;
+            }
+        }   
+    }
+}
+// End News and events section  
