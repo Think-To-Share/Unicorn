@@ -56,10 +56,12 @@
         position: absolute;
         left: 63%;
         top: 68%;
+        display: none;
         @media (min-width: 992px){
             padding: 100px 81px;
             line-height: 59px;
             font-size: 2.1em;
+            display: block;
         }
         p{
             font-weight: 400;
@@ -319,39 +321,43 @@
             font-size: 3.8em;
         }
     }
-    .events{
-        .events-menu-heading{
-            text-align: center;
-            padding-top: 10px;
-            font-weight: 400;
-            font-family: $secondary-font;
-            color: $primary-color;
-            font-size: 1.6em;
-            @media (min-width: 992px){
-                font-size: 2.2em;
+    a{
+        text-decoration: none;
+        .events{
+            .events-menu-heading{
+                text-align: center;
+                padding-top: 10px;
+                font-weight: 400;
+                font-family: $secondary-font;
+                color: $primary-color;
+                font-size: 1.6em;
+                @media (min-width: 992px){
+                    font-size: 2.2em;
+                }
             }
+            .events-menu-text{
+                background-image: url(../images/events.jpg);
+                background-size: 100% 100%;
+                padding: 27px 28px;
+                background-position: top left;
+                text-align: center;
+                font-weight: 500;
+                font-family: $primary-font;
+                color: #000;
+                font-size: 0.9em;
+                line-height: 33px;
+                margin-bottom: 0;
+                @media (min-width: 992px){
+                    font-size: 1em;
+                }
+                p{
+                    padding: 0;
+                    margin: 0;
+                }
+            }   
         }
-        .events-menu-text{
-            background-image: url(../images/events.jpg);
-            background-size: 100% 100%;
-            padding: 27px 28px;
-            background-position: top left;
-            text-align: center;
-            font-weight: 500;
-            font-family: $primary-font;
-            color: #000;
-            font-size: 0.9em;
-            line-height: 33px;
-            margin-bottom: 0;
-            @media (min-width: 992px){
-                font-size: 1em;
-            }
-            p{
-                padding: 0;
-                margin: 0;
-            }
-        }   
     }
+
 }
 // End News and events section  
 
