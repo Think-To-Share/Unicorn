@@ -28,21 +28,28 @@
             }
         }
     }
-    .slides{
-        .slide{
-            img{
-                display: flex;
-                margin: 0 auto;
-                width: 70%;
+
+    .slider-container {
+        position: relative;
+
+        .slides{
+            .slide{
+                img{
+                    width: 100%;
+                }
             }
         }
+
+        .herocircle{
+            position: absolute;
+            top: -25px;
+            left: -10px;
+            width: 69px;
+        }
     }
-    .herocircle{
-        position: absolute;
-        top: 20%;
-        width: 75px;
-        left: 14%;
-    }
+
+    
+    
     .unicorn-hero-text{
         color: #d6f3f7;
         background-image: url(../images/bgtextbackground.png);
@@ -52,10 +59,10 @@
         // letter-spacing: 4px;
         line-height: 48px;
         font-size: 1.6em;
-        width: 28%;
+        width: 500px;
         position: absolute;
-        left: 63%;
-        top: 68%;
+        right: -125px;
+        bottom: -50px;
         display: none;
         @media (min-width: 992px){
             padding: 100px 81px;
