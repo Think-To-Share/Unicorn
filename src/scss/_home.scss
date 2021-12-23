@@ -77,7 +77,7 @@
     .services{
         img{
             margin: 0 auto;
-            width: 50%;
+            width: 149px;
             display: block;
         }
         .services-menu-heading{
@@ -324,6 +324,7 @@
     a{
         text-decoration: none;
         .events{
+            border: none;
             .events-menu-heading{
                 text-align: center;
                 padding-top: 10px;
@@ -331,6 +332,7 @@
                 font-family: $secondary-font;
                 color: $primary-color;
                 font-size: 1.6em;
+                border: none;
                 @media (min-width: 992px){
                     font-size: 2.2em;
                 }

@@ -1,0 +1,30 @@
+.page-hero-section{
+    .img-bg{
+        margin-bottom: 50px;
+        height: 66vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        position: relative;
+        &::after{
+            content:"";
+            height: 100%;
+            width: 100%;
+            background-color: #000;
+            opacity: 0.2;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+    .hero-heading{
+        text-align: center;
+        width: 100%;
+        color: #fff;
+        font-size: 6em;
+        font-family: $secondary-font;
+        font-weight: 400;
+        z-index: 1;
+    }
+}

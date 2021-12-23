@@ -1,0 +1,58 @@
+.page-hero-section{
+    .img-bg{
+        margin-bottom: 50px;
+        height: 66vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        position: relative;
+        &::after{
+            content:"";
+            height: 100%;
+            width: 100%;
+            background-color: #000;
+            opacity: 0.2;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+    .hero-heading{
+        text-align: center;
+        width: 100%;
+        color: #fff;
+        font-size: 3em;
+        font-family: $secondary-font;
+        font-weight: 400;
+        z-index: 1;
+        @media (min-width: 768px){
+            font-size: 5em;
+        }
+    }
+}
+.testimonials-parents-sec{
+    .testimonials-parents-text{
+        color: #000000;
+        background-image: url(../images/testimonials.png);
+        line-height: 40px;
+        padding: 107px 40px;
+        background-size: 100% 100%;
+        text-align: center;
+        letter-spacing: 4px;
+        line-height: 39px;
+        font-size: 1em;
+        @media (min-width: 992px){
+            padding: 100px 81px;
+            line-height: 59px;
+            font-size: 1.6em;
+            padding: 80px 81px;
+        }
+        p{
+            font-weight: 400;
+            font-family: $secondary-font;
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
