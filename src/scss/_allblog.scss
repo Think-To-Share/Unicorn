@@ -1,5 +1,5 @@
-.page-hero-section{
-    .img-bg{
+.page-hero-section {
+    .img-bg {
         margin-bottom: 50px;
         height: 66vh;
         background-repeat: no-repeat;
@@ -7,8 +7,8 @@
         display: flex;
         align-items: center;
         position: relative;
-        &::after{
-            content:"";
+        &::after {
+            content: '';
             height: 100%;
             width: 100%;
             background-color: #000;
@@ -18,7 +18,7 @@
             top: 0;
         }
     }
-    .hero-heading{
+    .hero-heading {
         text-align: center;
         width: 100%;
         color: #fff;

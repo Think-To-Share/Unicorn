@@ -1,3 +1,26 @@
-*{
+* {
     font-family: $primary-font;
+}
+.Process-text {
+    text-align: left;
+    color: #261d1b;
+    font-weight: 400;
+    font-family: $primary-font;
+    font-size: 1em;
+    width: 80%;
+    margin: 0 auto;
+    @media (min-width: 992px) {
+        font-size: 1.2em;
+    }
+}
+.activites-heading {
+    text-align: center;
+    color: #fa194f;
+    font-weight: 400;
+    font-family: $secondary-font;
+    font-size: 2.8em;
+    padding-bottom: 40px;
+    @media (min-width: 992px) {
+        font-size: 3.8em;
+    }
 }
