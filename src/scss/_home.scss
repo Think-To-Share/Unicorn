@@ -58,9 +58,10 @@
         line-height: 48px;
         font-size: 1.6em;
         position: absolute;
-        
         bottom: -50px;
+        overflow: hidden;
         display: none;
+
         @media (min-width: 992px) {
             padding: 61px 38px;
             line-height: 47px;
