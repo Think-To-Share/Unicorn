@@ -1,3 +1,74 @@
+// popup
+.share-details {
+    position: fixed;
+    z-index: 1000;
+    top: 200px;
+    right: 0;
+    padding: 15px;
+    background: #f9f9f9;
+    box-shadow: grey 0px 0px 5px;
+    border-radius: 2px;
+    a{
+        color: #FA194F;
+        outline: none;
+    }
+   
+}
+.unicornmodalform{
+    .modal-content{
+       
+        @media (min-width: 768px){
+            width: 85%;
+        }
+        .modal-header{
+            .modal-title{
+                color: #FA194F;
+                font-family: $primary-font;
+                font-size: 2em;
+            }
+        }
+        .modal-body{
+            form{
+                input::placeholder {
+                    color: $primary-color;
+                    font-family: $secondary-font;
+                    font-weight: 400;
+                }
+                input,
+                textarea {
+                    width: 100%;
+                    border: none;
+                    border-bottom: 1px solid;
+                    padding-top: 19px;
+                    outline: none;
+                }
+                textarea::placeholder {
+                    color: $primary-color;
+                    font-family: $secondary-font;
+                    font-weight: 400;
+                }
+                .btn-container{
+                    button {
+                            background: #FA194F;
+                            outline: none;
+                            border: none;
+                            display: inline-block;
+                            padding: 5px 15px;
+                            font-family: $primary-font;
+                            font-weight: 700;
+                            text-align: center;
+                            color: #fff;
+                            margin-bottom: 0;
+                            width: 40%;
+                            border-radius: 4px;
+                            margin-top: 23px; 
+                    }
+                }
+            }
+        }
+    }
+}
+
 .unicorn-hero-section {
     margin-bottom: 155px;
     .tns-outer {

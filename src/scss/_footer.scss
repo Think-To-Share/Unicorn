@@ -7,12 +7,13 @@
             color: #ffffff;
             font-family: $secondary-font;
             font-weight: 400;
-            font-size: 1.7em;
+            font-size: 1.4em;
             text-align: center;
             @media (min-width: 768px) {
                 text-align: left;
                 // font-size: 2em;
                 margin-top: 0;
+                font-size: 1.7em;
             }
         }
         .widget-content {
@@ -56,8 +57,11 @@
 
                     a {
                         text-decoration: none;
-                        font-size: 1.3em;
+                        font-size: 1em;
                         font-family: $primary-font;
+                        @media (min-width: 768px){
+                            font-size: 1.3em;
+                        }
                         i {
                             color: #ffffff;
                             margin-bottom: 38px;
@@ -82,9 +86,12 @@
                     text-decoration: none;
                     color: #ffffff;
                     font-family: $primary-font;
-                    font-size: 1.3em;
+                    font-size: 1em;
                     padding-top: 13px;
                     text-align: center;
+                    @media (min-width: 768px){
+                        font-size: 1.3em;
+                    }
                 }
             }
         }
@@ -92,12 +99,13 @@
         p {
             color: #ffffff;
             font-family: $primary-font;
-            font-size: 1.5em;
+            font-size: 1.2em;
             font-weight: 400;
             text-align: center;
             
             @media (min-width: 768px) {
                 text-align: left;
+                font-size: 1.5em;
             }
 
             a {
@@ -113,12 +121,15 @@
     .copyright-text {
         color: #030303;
         text-align: center;
-        font-size: 1.3em;
+        font-size: 0.9em;
         padding-top: 10px;
         padding-bottom: 10px;
         font-family: $primary-font;
         font-weight: 400;
         margin: 0;
+        @media (min-width: 768px){
+            font-size: 1.3em;
+        }
         a {
             color: #030303;
             font-weight: 700;
