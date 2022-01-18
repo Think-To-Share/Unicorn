@@ -52,3 +52,24 @@ if (document.querySelector('.scl-parents-sec')) {
         autoHeight: true,
     })
 }
+
+if (document.querySelector('.banner-box-sec')) {
+    tns({
+        container: '.banner-box-sec .slides',
+        items: 1,
+        nav: false,
+        autoplay: true,
+        controls:false,
+        autoplayTimeout:3000,
+        autoplayButtonOutput: false,
+    })
+    tns({
+        container: '.banner-box-sec .slides1',
+        items: 1,
+        nav: false,
+        autoplay: true,
+        controls:false,
+        autoplayTimeout:3000,
+        autoplayButtonOutput: false,
+    })
+}
